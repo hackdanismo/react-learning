@@ -1,6 +1,14 @@
+import { Helmet } from 'react-helmet'
+
 const NotFoundPage = () => {
   return (
-    <h1>404: Not Found</h1>
+    <>
+      <Helmet>
+        <title>React Application: About</title>
+      </Helmet>
+
+      <h1>404: Not Found</h1>
+    </>
   )
 }
 
